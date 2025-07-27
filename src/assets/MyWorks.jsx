@@ -3,6 +3,9 @@ import ajjistore from '../assets/works/ajji-store.jpeg'
 import dtmedicalclient from '../assets/works/dt-medical-client.jpeg'
 import ajjioo from '../assets/works/ajjiyoo.jpeg'
 import medicaladmin from '../assets/works/admin-medical.jpeg'
+import lwmc from '../assets/works/lwmc.jpeg'
+import raafest from '../assets/works/raafest.jpeg'
+import adminraafest from '../assets/works/admin-raafest.jpeg'
 
 
 import aws from "../assets/tools/aws.svg";
@@ -218,5 +221,115 @@ export const myWorks = [
         gitHub: "https://github.com/asjadahamed77/AjjiyooEcom",
         live: "https://ajjiyoo-ecom-2nkh.vercel.app/"
     },
+    {
+        name: "LWMC Media – Church Events & Management Platform",
+        subtitle: "Streamlining church communication, media, and management through one unified platform.",
+        description: "LWMC Media is a fully responsive and visually engaging platform designed to showcase and manage the dynamic life of a church community. From event displays to church leadership visibility and media integration, LWMC Media offers an all-in-one solution for churches to stay connected and organized. The platform displays upcoming events, ongoing programs, and recently held activities, complete with YouTube like-count integration for past events to boost visibility and engagement. Visitors can learn more about the community through a dedicated section that highlights pastors and church leadership team members. A secure admin panel allows authorized personnel to manage users, update event data, and oversee the system in real time — making LWMC Media a reliable and efficient church management system. With an awesome UI, modern architecture, and real-time updates, LWMC Media ensures a smooth experience across all screen sizes.",
+        imageFile: lwmc,
+        tools: [
+            {
+                tool: "React",
+                toolIcon: vitejs
+            },
+            {
+                tool: "Tailwind CSS",
+                toolIcon: tailwindcss
+            },
+            {
+                tool: "Node.js",
+                toolIcon: nodejs
+            },
+            {
+                tool: "Express.js",
+                toolIcon: expressjs
+            },
+            {
+                tool: "MongoDB",
+                toolIcon: mongodb
+            },
+            {
+                tool: "Redux",
+                toolIcon: redux
+            },
+            
+            
+        ],
+        gitHub: "",
+        live: "https://www.lwmcmedia.fr/"
+    },
+    {
+        name: "Raafest",
+        subtitle: "Celebrate with ease – a secure and seamless cake ordering experience.",
+        description: "Raafest Client is a secure, user-focused web platform designed to make cake ordering an easy, personalized, and joyful experience. Built with a modern UI and fully responsive design, users can interact smoothly across devices. The platform includes secure user authentication and profile management, allowing users to save preferences and track past orders. Users can place custom cake orders by selecting a cake, choosing a gift box, adding a personalized card, and even sending heartfelt wishes — all through an intuitive interface. The system ensures secure order placement and uses real-time toast notifications to confirm actions and keep users informed every step of the way. Whether it’s a birthday, anniversary, or celebration, Raafest Client makes thoughtful gifting simple, safe, and delightful.",
+        imageFile: raafest,
+        tools: [
+            {
+                tool: "React",
+                toolIcon: vitejs
+            },
+            {
+                tool: "Tailwind CSS",
+                toolIcon: tailwindcss
+            },
+            {
+                tool: "Node.js",
+                toolIcon: nodejs
+            },
+            {
+                tool: "Express.js",
+                toolIcon: expressjs
+            },
+            {
+                tool: "MongoDB",
+                toolIcon: mongodb
+            },
+            {
+                tool: "Redux",
+                toolIcon: redux
+            },
+            
+            
+        ],
+        gitHub: "https://github.com/asjadahamed77/Raafath-tea-shop",
+        live: "https://raafest.vercel.app/"
+    },
+    {
+        name: "Raafest – Admin Dashboard",
+        subtitle: "Powerful administrative control for managing users, orders, and product listings with ease.",
+        description: "Raafest Admin is a secure and responsive dashboard built for administrators to efficiently manage the operations of the Raafest platform. Designed with a clean, modern UI, the admin panel works seamlessly across all screen sizes, offering full control from desktop or mobile. Admins can securely log in and access key modules to manage users, update customer orders, and oversee all aspects of the product catalog including cakes, gift boxes, and greeting cards. The dashboard provides a clear and organized interface to streamline workflow, reduce manual effort, and ensure accurate, real-time management of order statuses and user details. With a focus on security and usability, Raafest Admin empowers platform managers to maintain smooth and reliable operations across the entire ordering process.",
+        imageFile: adminraafest,
+        tools: [
+            {
+                tool: "React",
+                toolIcon: vitejs
+            },
+            {
+                tool: "Tailwind CSS",
+                toolIcon: tailwindcss
+            },
+            {
+                tool: "Node.js",
+                toolIcon: nodejs
+            },
+            {
+                tool: "Express.js",
+                toolIcon: expressjs
+            },
+            {
+                tool: "MongoDB",
+                toolIcon: mongodb
+            },
+            {
+                tool: "Redux",
+                toolIcon: redux
+            },
+            
+            
+        ],
+        gitHub: "https://github.com/asjadahamed77/Raafath-tea-shop",
+        live: "https://admin-raafestt.vercel.app/login"
+    },
+
+
     
 ]
