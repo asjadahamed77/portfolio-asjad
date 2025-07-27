@@ -1,12 +1,11 @@
 import React from "react";
 import { myWorks } from "../assets/MyWorks";
-import { ExternalLink } from 'lucide-react';
-
+import { ExternalLink } from "lucide-react";
 
 const MyWorks = () => {
   return (
-    <div className="px-4 sm:px-20 my-32">
-      <div className="flex flex-col md:flex-row gap-12">
+    <div id="work" className="px-4 sm:px-20 my-32">
+      <div className="grid lg:grid-cols-2 md:flex-row gap-12">
         {myWorks.map((work, index) => (
           <div
             key={index}
@@ -27,25 +26,27 @@ const MyWorks = () => {
                 {work.description}
               </p>
               <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-  {work.tools.map((tool, index) => (
-    <div
-      key={index}
-      className="flex items-center gap-3 p-3 bg-zinc-800 rounded-lg shadow-sm border-transparent border duration-500 hover:border hover:border-white hover:shadow-[0px_4px_8px_4px] hover:shadow-white"
-    >
-      <img src={tool.toolIcon} alt={tool.tool} className="w-6 h-6 object-contain" />
-      <p className="text-white/90 text-sm">{tool.tool}</p>
-    </div>
-  ))}
-</div>
+                {work.tools.map((tool, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center gap-3 p-3 bg-zinc-800 rounded-lg shadow-sm border-transparent border duration-500 hover:border hover:border-white hover:shadow-[0px_4px_8px_4px] hover:shadow-white"
+                  >
+                    <img
+                      src={tool.toolIcon}
+                      alt={tool.tool}
+                      className="w-6 h-6 object-contain"
+                    />
+                    <p className="text-white/90 text-sm">{tool.tool}</p>
+                  </div>
+                ))}
+              </div>
 
-{
-    work.live && (
-        <div className="mt-6 flex items-center gap-3 hover:underline text-xl font-medium tracking-wider"> 
-            <ExternalLink />
-            Try it Live
-        </div>
-    )
-}
+              {work.live && (
+                <a href={work.live} target="_blank" className="mt-10 flex items-center gap-3 hover:underline text-xl font-medium tracking-wider">
+                  <ExternalLink />
+                  Try it Live
+                </a>
+              )}
             </div>
           </div>
         ))}

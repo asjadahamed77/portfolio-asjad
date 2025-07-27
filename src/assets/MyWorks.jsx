@@ -1,5 +1,8 @@
 import goAIimage from '../assets/works/goai.jpeg'
 import ajjistore from '../assets/works/ajji-store.jpeg'
+import dtmedicalclient from '../assets/works/dt-medical-client.jpeg'
+import ajjioo from '../assets/works/ajjiyoo.jpeg'
+import medicaladmin from '../assets/works/admin-medical.jpeg'
 
 
 import aws from "../assets/tools/aws.svg";
@@ -112,6 +115,108 @@ export const myWorks = [
         ],
         gitHub: "https://github.com/asjadahamed77/Ajji-Store",
         live: "https://ajji-store-client.vercel.app/"
+    },
+    {
+        name: "DT-Medical Centre",
+        subtitle: "Doctor Appointment Booking System – Client Portal",
+        description: "DT Medical Centre is a modern, secure, and fully responsive web application designed to streamline doctor appointments and healthcare service management. Built with a focus on user experience, security, and efficiency, the platform empowers patients and admins to seamlessly interact in a digital medical environment. Users can securely authenticate, manage their personal profiles, book appointments with doctors, and complete online payments through an intuitive interface. The system includes real-time toast notifications for instant feedback on booking, cancellation, or payment status. Features like search and filtering help patients easily find the right doctor or time slot, while the booking management system ensures clarity and control for both patients and administrators. Designed to adapt across all devices, DT Medical Centre is fully responsive and optimized for performance on mobile, tablet, and desktop.",
+        imageFile: dtmedicalclient,
+        tools: [
+            {
+                tool: "React",
+                toolIcon: vitejs
+            },
+            {
+                tool: "Tailwind CSS",
+                toolIcon: tailwindcss
+            },
+            {
+                tool: "Node.js",
+                toolIcon: nodejs
+            },
+            {
+                tool: "Express.js",
+                toolIcon: expressjs
+            },
+            {
+                tool: "MongoDB",
+                toolIcon: mongodb
+            },
+            
+        ],
+        gitHub: "https://github.com/asjadahamed77/DT-Medical-Centre",
+        live: "https://dt-medical-centre-c.vercel.app/"
+    },
+    {
+        name: "DT Medical Centre – Admin & Doctor Dashboard",
+        subtitle: "Empowering healthcare professionals with control, insights, and seamless appointment management.",
+        description: "The Admin & Doctor Dashboard of DT Medical Centre is a powerful, secure backend interface built for healthcare professionals and clinic administrators to efficiently manage operations. Featuring secure authentication for both doctors and admins, the system ensures only authorized users can access sensitive patient and clinic data. Admins have complete control — they can add doctors, manage appointments, view payments, and oversee patient activity. Doctors can manage their own profiles, availability, payment status, and more, providing a personalized experience while staying connected to patient appointments. The dashboard is built with a responsive design, ensuring a smooth experience across desktops, tablets, and mobile devices. Real-time toast notifications give immediate feedback on updates like appointment status, profile edits, and payment updates — enhancing the user experience with clarity and speed.",
+        imageFile: medicaladmin,
+        tools: [
+            {
+                tool: "React",
+                toolIcon: vitejs
+            },
+            {
+                tool: "Tailwind CSS",
+                toolIcon: tailwindcss
+            },
+            {
+                tool: "Node.js",
+                toolIcon: nodejs
+            },
+            {
+                tool: "Express.js",
+                toolIcon: expressjs
+            },
+            {
+                tool: "MongoDB",
+                toolIcon: mongodb
+            },
+            
+            
+        ],
+        gitHub: "https://github.com/asjadahamed77/DT-Medical-Centre",
+        live: "https://admin-dt-medical-centre.vercel.app/"
+    },
+    {
+        name: "Ajjiyoo",
+        subtitle: "Fashion E-Commerce Platform with Unified Admin/Client",
+        description: "Ajjiyoo is a fully responsive, modern e-commerce platform tailored for a textile shop, offering a seamless shopping and management experience for both users and administrators. The platform supports secure authentication, allowing both users and admins to log in and perform their respective actions. Customers can browse products using multiple filters and search capabilities, add items to cart, and securely complete purchases via PayPal payment integration. On the admin side, Ajjiyoo includes a dedicated dashboard to manage users, orders, and product listings, ensuring smooth store operations. Designed with usability and performance in mind, Ajjiyoo adapts beautifully to all screen sizes, providing a smooth experience on desktop and mobile devices alike.",
+        imageFile: ajjioo,
+        tools: [
+            {
+                tool: "React",
+                toolIcon: vitejs
+            },
+            {
+                tool: "Tailwind CSS",
+                toolIcon: tailwindcss
+            },
+            {
+                tool: "Node.js",
+                toolIcon: nodejs
+            },
+            {
+                tool: "Express.js",
+                toolIcon: expressjs
+            },
+            {
+                tool: "MongoDB",
+                toolIcon: mongodb
+            },
+            {
+                tool: "Redux",
+                toolIcon: redux
+            },
+            {
+                tool: "PayPal",
+                toolIcon: paypal
+            },
+            
+        ],
+        gitHub: "https://github.com/asjadahamed77/AjjiyooEcom",
+        live: "https://ajjiyoo-ecom-2nkh.vercel.app/"
     },
     
 ]
