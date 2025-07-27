@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { navLinks, words } from "../assets/assets";
-import hero from "../assets/images/hero.jpeg"
+import hero from "../assets/images/hero.jpeg";
 
 const Header = () => {
   const [index, setIndex] = useState(0);
@@ -85,20 +85,24 @@ const Header = () => {
             based in Sri Lanka with a passion for code.
           </h1>
           <a
-          href="#work"
-          className="relative inline-block px-6 py-2 rounded-md text-black bg-white border border-transparent overflow-hidden transition-colors duration-300 group mt-8 "
-        >
-          <span className="relative z-10 text-xl transition-colors duration-300 group-hover:text-white">
-            SEE MY WORKS
-          </span>
+            href="#work"
+            className="relative inline-block px-6 py-2 rounded-md text-black bg-white border border-transparent overflow-hidden transition-colors duration-300 group mt-8 "
+          >
+            <span className="relative z-10 text-xl transition-colors duration-300 group-hover:text-white">
+              SEE MY WORKS
+            </span>
 
-          <span className="absolute inset-0 bg-black transform -skew-x-12 scale-0 origin-bottom-left transition-transform duration-500 group-hover:scale-150 z-0"></span>
+            <span className="absolute inset-0 bg-black transform -skew-x-12 scale-0 origin-bottom-left transition-transform duration-500 group-hover:scale-150 z-0"></span>
 
-          <span className="absolute inset-0 rounded-md border border-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></span>
-        </a>
+            <span className="absolute inset-0 rounded-md border border-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></span>
+          </a>
         </div>
-        <div className="w-full xl:w-1/2 p-8 ">
-          <img src={hero} alt="Hero" className="rounded-4xl shadow-white shadow-[0px_4px_8px_4px]" />
+        <div className="w-full xl:w-1/2 xl:p-8 p-4">
+          <img
+            src={hero}
+            alt="Hero"
+            className="rounded-4xl shadow-white shadow-[0px_8px_20px_0px]"
+          />
         </div>
       </div>
     </div>
