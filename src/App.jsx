@@ -7,6 +7,8 @@ import MyWorks from './components/MyWorks'
 import ScrollingTools from './components/ScrollingTools'
 import Values from './components/Values'
 import Experience from './components/Experience'
+import MySkills from './components/MySkills'
+import ContactMe from './components/ContactMe'
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
      <ScrollingTools />
      <Values />
      <Experience />
+     <MySkills />
+     <ContactMe />
     </div>
   )
 }

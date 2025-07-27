@@ -71,7 +71,7 @@ export const words = [
 export const contactMethods = [
   {
     name: "Email",
-    link: "ahamedasjad77@gmail.com",
+    link: "mailto:ahamedasjad77@gmail.com",
     img: <Mail />,
   },
   {
@@ -81,7 +81,7 @@ export const contactMethods = [
   },
   {
     name: "Phone",
-    link: "+94 76 125 7751",
+    link: "tel:+94 76 125 7751",
     img: <Phone />,
   },
   {
