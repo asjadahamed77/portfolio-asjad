@@ -4,6 +4,7 @@ import AnimatedCounter from './components/AnimatedCounter'
 import About from './components/About'
 import ToolsIUsed from './components/ToolsIUsed'
 import MyWorks from './components/MyWorks'
+import ScrollingTools from './components/ScrollingTools'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
      <About />
      <ToolsIUsed />
      <MyWorks />
+     <ScrollingTools />
     </div>
   )
 }
