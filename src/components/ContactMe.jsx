@@ -33,7 +33,7 @@ const ContactMe = () => {
       .finally(() => setLoading(false));
   };
   return (
-    <section id="contact" className="px-4 sm:px-20 my-32">
+    <section id="contact" className="px-4 sm:px-20 py-32">
       <div className="text-center">
         <p className="inline-flex items-center gap-2 font-semibold text-sm sm:text-base tracking-wide px-6 py-2.5 bg-zinc-800 rounded-full shadow-sm">
           <ContactRound className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -138,7 +138,7 @@ const ContactMe = () => {
               name="message"
               required
               placeholder="Type your message here..."
-              className="p-4 w-full mt-2 border  rounded-lg  rounded outline-none focus:ring-2 ring-mainBlueLight min-h-24 resize-none"
+              className="p-4 w-full mt-2 border  rounded-lg   outline-none focus:ring-2 ring-mainBlueLight min-h-24 resize-none"
             />
           </div>
           <button

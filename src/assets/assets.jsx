@@ -70,17 +70,17 @@ export const words = [
 
 export const contactMethods = [
   {
-    name: "Email",
+    name: "Email   |",
     link: "mailto:ahamedasjad77@gmail.com",
     img: <Mail />,
   },
   {
-    name: "LinkedIn",
+    name: "LinkedIn   |",
     link: "https://www.linkedin.com/in/asjad-ahamed-71941b288/",
     img: <Linkedin />,
   },
   {
-    name: "Phone",
+    name: "Phone   |",
     link: "tel:+94 76 125 7751",
     img: <Phone />,
   },

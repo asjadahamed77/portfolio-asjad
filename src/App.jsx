@@ -9,6 +9,7 @@ import Values from './components/Values'
 import Experience from './components/Experience'
 import MySkills from './components/MySkills'
 import ContactMe from './components/ContactMe'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
      <Experience />
      <MySkills />
      <ContactMe />
+     <Footer />
     </div>
   )
 }

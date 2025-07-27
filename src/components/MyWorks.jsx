@@ -4,7 +4,7 @@ import { ExternalLink } from "lucide-react";
 
 const MyWorks = () => {
   return (
-    <div id="work" className="px-4 sm:px-20 my-32">
+    <div id="work" className="px-4 sm:px-20 py-32">
       <div className="grid lg:grid-cols-2 md:flex-row gap-12">
         {myWorks.map((work, index) => (
           <div

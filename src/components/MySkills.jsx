@@ -33,7 +33,7 @@ const skills = [
 
 const MySkills = () => {
   return (
-    <section id="skills" className="px-4 sm:px-20  bg-zinc-950 text-white">
+    <section id="skills" className="px-4 sm:px-20 py-32  bg-zinc-950 text-white">
   <div className="text-center">
     <p className="inline-flex items-center gap-2 font-semibold text-sm sm:text-base tracking-wide px-6 py-2.5 bg-zinc-800 rounded-full shadow-sm">
       <Box /> What I Bring to the Table

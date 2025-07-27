@@ -3,7 +3,7 @@ import profile from "../assets/images/profile.jpeg";
 
 const About = () => {
   return (
-    <section id="about" className="px-4 sm:px-20 my-20">
+    <section id="about" className="px-4 sm:px-20 py-32">
       <div className="grid lg:grid-cols-2 lg:gap-20 gap-12">
         {/* Left: About Text */}
         <div className="flex-1 bg-zinc-900 relative overflow-hidden group lg:p-12 p-6 h-fit rounded-lg transition-all duration-500">
