@@ -29,7 +29,7 @@ const Values = () => {
     <div className='my-32 px-4 sm:px-20 flex flex-wrap lg:flex-nowrap w-full justify-center  items-center gap-8  xl:gap-24 '>
       {
         values.map((item,index)=>(
-            <div key={index} className='flex flex-col items-start  sm:p-8 p-4 bg-zinc-900 rounded-lg border-2 border-transparent hover:border-white hover:shadow-[0px_4px_8px_2px]'>
+            <div key={index} className='flex flex-col items-start  sm:p-8 p-4 bg-zinc-900 rounded-xl border-2 border-transparent hover:border-white hover:shadow-[0px_4px_8px_2px]'>
                <p  className=''>{item.iconFile}</p>
                 <h1 className='text-xl font-semibold tracking-wide mt-6'>{item.name}</h1>
                 <p className='mt-4 text-white/70'>{item.desc}</p>

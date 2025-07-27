@@ -4,12 +4,23 @@ import hero from "../assets/images/hero.jpeg";
 
 const Header = () => {
   const [index, setIndex] = useState(0);
+  const [isScrolled, setIsScrolled] = useState(false);
 
+  // Handle rotating words every 1s
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % words.length);
     }, 1000);
     return () => clearInterval(interval);
+  }, []);
+
+  // Handle scroll for navbar blur effect
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 300);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -22,7 +33,11 @@ const Header = () => {
       className="h-screen px-4 sm:px-20 text-white"
     >
       {/* Top Bar */}
-      <div className="w-full flex items-center justify-between px-4 sm:px-20 py-4 fixed top-0 left-0 right-0 z-10">
+      <div
+        className={`w-full flex items-center justify-between px-4 sm:px-20 py-4 fixed top-0 left-0 right-0 z-10 transition-all duration-500 ${
+          isScrolled ? "backdrop-blur-[200px] z-20 bg-black" : ""
+        }`}
+      >
         <a href="#hero" className="text-2xl font-semibold">
           Asjad Ahd
         </a>
@@ -57,10 +72,10 @@ const Header = () => {
 
       {/* Hero Section */}
       <div className="flex flex-col xl:flex-row items-center justify-center gap-12 w-full h-[calc(100vh-75px)]">
-        <div className="flex flex-col  items-start w-full xl:w-1/2">
-          <h1 className="text-2xl lg:text-4xl font-semibold ">
+        <div className="flex flex-col items-start w-full xl:w-1/2">
+          <h1 className="text-2xl lg:text-4xl font-semibold">
             Hi, I’m Asjad, a{" "}
-            <div className="overflow-hidden h-12  my-6">
+            <div className="overflow-hidden h-12 my-6">
               <div
                 className="transition-transform duration-[450ms] ease-in-out"
                 style={{
@@ -84,9 +99,10 @@ const Header = () => {
             </div>{" "}
             based in Sri Lanka with a passion for code.
           </h1>
+
           <a
             href="#work"
-            className="relative inline-block px-6 py-2 rounded-md text-black bg-white border border-transparent overflow-hidden transition-colors duration-300 group mt-8 "
+            className="relative inline-block px-6 py-2 rounded-md text-black bg-white border border-transparent overflow-hidden transition-colors duration-300 group mt-8"
           >
             <span className="relative z-10 text-xl transition-colors duration-300 group-hover:text-white">
               SEE MY WORKS
@@ -97,6 +113,7 @@ const Header = () => {
             <span className="absolute inset-0 rounded-md border border-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></span>
           </a>
         </div>
+
         <div className="w-full xl:w-1/2 xl:p-8 p-4">
           <img
             src={hero}

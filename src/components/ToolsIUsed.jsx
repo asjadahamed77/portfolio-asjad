@@ -12,7 +12,7 @@ const ToolsIUsed = () => {
             My ToolKit
           </p>
           <h1 className="text-4xl font-bold tracking-wider mt-8">
-            Tools I Use
+            Tools & Stack I Use
           </h1>
         </div>
         <div className="flex flex-wrap mt-12 gap-2 sm:gap-4 justify-center">
