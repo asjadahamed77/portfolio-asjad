@@ -53,7 +53,7 @@ const Header = () => {
       </div>
 
       {/* Spacer for fixed header */}
-      <div className="pt-[75px]"></div>
+      <div id="hero" className="pt-[75px]"></div>
 
       {/* Hero Section */}
       <div className="flex flex-col xl:flex-row items-center justify-center gap-12 w-full h-[calc(100vh-75px)]">

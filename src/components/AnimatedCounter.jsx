@@ -59,7 +59,7 @@ const AnimatedCounter = () => {
         {counterItems.map((item, index) => (
           <div
             key={index}
-            className="bg-zinc-900 rounded-lg p-10 flex flex-col justify-center items-center text-center"
+            className="bg-zinc-900 cursor-pointer rounded-lg p-10 flex flex-col justify-center items-center text-center border border-transparent hover:border-white hover:shadow-[0_0_10px_2px_rgba(255,255,255,0.5)] transition-all duration-500"
           >
             <div
               ref={(el) => (numberRefs.current[index] = el)}
