@@ -5,6 +5,7 @@ import About from './components/About'
 import ToolsIUsed from './components/ToolsIUsed'
 import MyWorks from './components/MyWorks'
 import ScrollingTools from './components/ScrollingTools'
+import Values from './components/Values'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
      <ToolsIUsed />
      <MyWorks />
      <ScrollingTools />
+     <Values />
     </div>
   )
 }
