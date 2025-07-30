@@ -6,6 +6,7 @@ import medicaladmin from '../assets/works/admin-medical.jpeg'
 import lwmc from '../assets/works/lwmc.jpeg'
 import raafest from '../assets/works/raafest.jpeg'
 import adminraafest from '../assets/works/admin-raafest.jpeg'
+import foodio from '../assets/works/foodio.jpeg'
 
 
 import aws from "../assets/tools/aws.svg";
@@ -181,6 +182,32 @@ export const myWorks = [
         ],
         gitHub: "https://github.com/asjadahamed77/DT-Medical-Centre",
         live: "https://admin-dt-medical-centre.vercel.app/"
+    },
+    {
+        name: "Foodio",
+        subtitle: "Billing System for a Restaurant – Admin & User Panels",
+        description: "Foodio is a full-stack restaurant billing system built for both administrators and end users, offering a complete and intuitive experience. Developed with a modern UI, the platform supports secure authentication and role-based access — allowing admins to add users, manage orders, manage items, and oversee all operational aspects of the restaurant system. Both admins and users have access to a personalized dashboard, order history tracking, and a billing interface. Advanced features include category-based filtering, product search, and seamless bill printing after payment. The system is fully responsive, working beautifully on all devices, and ensures smooth and efficient order management and billing workflows in a real-world restaurant environment.",
+        imageFile: foodio,
+        tools: [
+            {
+                tool: "React",
+                toolIcon: vitejs
+            },
+            {
+                tool: "Tailwind CSS",
+                toolIcon: tailwindcss
+            },
+            {
+                tool: "Spring Boot",
+                toolIcon: spring
+            },
+            {
+                tool: "MySQL",
+                toolIcon: mysql
+            },
+        ],
+        gitHub: "https://github.com/asjadahamed77/Foodio",
+        live: "" // Add live link if deployed
     },
     {
         name: "Ajjiyoo",
