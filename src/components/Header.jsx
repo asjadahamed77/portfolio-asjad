@@ -118,7 +118,7 @@ const Header = () => {
           <img
             src={hero}
             alt="Hero"
-            className="rounded-4xl shadow-white shadow-[0px_8px_20px_0px]"
+            className="rounded-xl shadow-black border-4 border-black shadow-[0px_20px_20px_0px]"
           />
         </div>
       </div>

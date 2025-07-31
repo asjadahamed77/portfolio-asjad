@@ -207,7 +207,7 @@ export const myWorks = [
             },
         ],
         gitHub: "https://github.com/asjadahamed77/Foodio",
-        live: "" // Add live link if deployed
+        live: "" 
     },
     {
         name: "Ajjiyoo",
