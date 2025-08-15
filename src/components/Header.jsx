@@ -6,7 +6,7 @@ const Header = () => {
   const [index, setIndex] = useState(0);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  // Handle rotating words every 1s
+  
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % words.length);
@@ -14,7 +14,8 @@ const Header = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // Handle scroll for navbar blur effect
+
+  // Handle Scroll for blur effect
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 300);
