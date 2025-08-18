@@ -82,6 +82,15 @@ export const myWorks = [
                 tool: "Clerk",
                 toolIcon: clerk
             },
+            {
+                tool: "Cloudinary",
+                toolIcon: cloudinary
+            },
+            {
+                tool: "Vercel",
+                toolIcon: verceldark
+            },
+            
         ],
         gitHub: "https://github.com/asjadahamed77/goAI",
         live: "https://go-ai-drab.vercel.app/"
@@ -116,6 +125,14 @@ export const myWorks = [
                 tool: "PayPal",
                 toolIcon: paypal
             },
+            {
+                tool: "Cloudinary",
+                toolIcon: cloudinary
+            },
+            {
+                tool: "Vercel",
+                toolIcon: verceldark
+            },
         ],
         gitHub: "https://github.com/asjadahamed77/Ajji-Store",
         live: "https://ajji-store-client.vercel.app/"
@@ -145,6 +162,14 @@ export const myWorks = [
             {
                 tool: "MongoDB",
                 toolIcon: mongodb
+            },
+            {
+                tool: "Cloudinary",
+                toolIcon: cloudinary
+            },
+            {
+                tool: "Vercel",
+                toolIcon: verceldark
             },
             
         ],
@@ -177,6 +202,14 @@ export const myWorks = [
                 tool: "MongoDB",
                 toolIcon: mongodb
             },
+            {
+                tool: "Cloudinary",
+                toolIcon: cloudinary
+            },
+            {
+                tool: "Vercel",
+                toolIcon: verceldark
+            },
             
             
         ],
@@ -205,6 +238,11 @@ export const myWorks = [
                 tool: "MySQL",
                 toolIcon: mysql
             },
+            {
+                tool: "Cloudinary",
+                toolIcon: cloudinary
+            },
+            
         ],
         gitHub: "https://github.com/asjadahamed77/Foodio",
         live: "" 
@@ -243,6 +281,14 @@ export const myWorks = [
                 tool: "PayPal",
                 toolIcon: paypal
             },
+            {
+                tool: "Cloudinary",
+                toolIcon: cloudinary
+            },
+            {
+                tool: "Vercel",
+                toolIcon: verceldark
+            },
             
         ],
         gitHub: "https://github.com/asjadahamed77/AjjiyooEcom",
@@ -278,6 +324,11 @@ export const myWorks = [
                 tool: "Redux",
                 toolIcon: redux
             },
+            {
+                tool: "AWS",
+                toolIcon: aws
+            },
+           
             
             
         ],
@@ -314,6 +365,14 @@ export const myWorks = [
                 tool: "Redux",
                 toolIcon: redux
             },
+            {
+                tool: "Cloudinary",
+                toolIcon: cloudinary
+            },
+            {
+                tool: "Vercel",
+                toolIcon: verceldark
+            },
             
             
         ],
@@ -349,6 +408,14 @@ export const myWorks = [
             {
                 tool: "Redux",
                 toolIcon: redux
+            },
+            {
+                tool: "Cloudinary",
+                toolIcon: cloudinary
+            },
+            {
+                tool: "Vercel",
+                toolIcon: verceldark
             },
             
             
