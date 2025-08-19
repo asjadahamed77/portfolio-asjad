@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='mt-32'>
       <h1 className='text-center text-4xl font-bold tracking-widest'>Asjad Ahamed</h1>
-      <div className='border-t mt-8 py-4 flex flex-col lg:flex-row items-center lg:justify-between justify-center '>
+      <div className='border-t mt-8 py-4 flex flex-col lg:flex-row items-center lg:justify-between justify-center px-4 '>
     <p>ⓒ 2025 Asjad Ahamed. All rights reserved.</p>
     <div className='flex items-center gap-2'>
 {

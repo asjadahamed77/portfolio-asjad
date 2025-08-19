@@ -35,7 +35,7 @@ const MySkills = () => {
   return (
     <section id="skills" className="px-4 sm:px-20 py-32  bg-zinc-950 text-white">
   <div className="text-center">
-    <p className="inline-flex items-center gap-2 font-semibold text-sm sm:text-base tracking-wide px-6 py-2.5 bg-zinc-800 rounded-full shadow-sm">
+    <p className="inline-flex items-center gap-2 font-semibold text-sm sm:text-base tracking-wide px-6 py-2.5 bg-zinc-800 rounded-full  hover:shadow-[0px_1px_1px_2px]  hover:shadow-white">
       <Box /> What I Bring to the Table
     </p>
     <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mt-6">

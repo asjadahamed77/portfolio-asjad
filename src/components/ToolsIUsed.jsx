@@ -7,7 +7,7 @@ const ToolsIUsed = () => {
     <div className="px-4 sm:px-20 my-32 ">
       <div className=" xl:p-12 sm:p-8 p-4 flex flex-col items-center justify-center">
         <div className="text-center">
-          <p className="inline-flex gap-2 items-center justify-center font-semibold text-lg tracking-wide px-8 py-2.5 bg-zinc-900 rounded-full">
+          <p className="inline-flex gap-2 items-center justify-center font-semibold text-lg tracking-wide px-8 py-2.5 bg-zinc-900 rounded-full hover:shadow-[0px_1px_1px_2px]  hover:shadow-white">
             <Lightbulb className="w-4 h-4" />
             My ToolKit
           </p>

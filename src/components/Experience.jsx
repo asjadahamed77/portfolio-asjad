@@ -8,7 +8,7 @@ const Experience = () => {
       className="px-4 sm:px-20 py-24 bg-zinc-950 text-white"
     >
       <div className="text-center">
-        <p className="inline-flex items-center gap-2 font-semibold text-sm sm:text-base tracking-wide px-6 py-2.5 bg-zinc-800 rounded-full shadow-sm">
+        <p className="inline-flex items-center gap-2 font-semibold text-sm sm:text-base tracking-wide px-6 py-2.5 bg-zinc-800 rounded-full hover:shadow-[0px_1px_1px_2px]  hover:shadow-white">
           <GraduationCap className="w-5 h-5 sm:w-6 sm:h-6" />
           My Career Overview
         </p>
@@ -25,7 +25,7 @@ const Experience = () => {
         </h3>
         <p className="flex items-center gap-2 text-zinc-400 mt-2 text-sm sm:text-base">
           <Calendar className="w-4 h-4" />
-          November 2024 – Present
+          November 2024 – Present (Part-time)
         </p>
         <ul className="mt-6 space-y-3 list-disc list-inside text-zinc-300 text-sm sm:text-base leading-relaxed">
           <li>
@@ -101,7 +101,7 @@ const Experience = () => {
       </div>
       <div id="education" className="my-20 bg-zinc-950 text-white">
   <div className="text-center">
-    <p className="inline-flex items-center gap-2 font-semibold text-sm sm:text-base tracking-wide px-6 py-2.5 bg-zinc-800 rounded-full shadow-sm">
+    <p className="inline-flex items-center gap-2 font-semibold text-sm sm:text-base tracking-wide px-6 py-2.5 bg-zinc-800 rounded-full hover:shadow-[0px_1px_1px_2px]  hover:shadow-white">
       <GraduationCap className="w-5 h-5 sm:w-6 sm:h-6" />
       My Education
     </p>
