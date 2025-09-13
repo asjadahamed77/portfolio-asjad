@@ -17,8 +17,15 @@ const ToolsIUsed = () => {
         </div>
         <div className="flex flex-wrap mt-12 gap-2 sm:gap-4 justify-center">
           {tools.map((item, index) => (
-            <div key={index} className="w-[150px] lg:w-[200px] flex items-center gap-4 p-4 ">
-              <img src={item.imgFile} alt="imagefile" className="w-8 sm:max-w-16" />
+            <div
+              key={index}
+              className="w-[150px] lg:w-[200px] flex items-center gap-4 p-4 "
+            >
+              <img
+                src={item.imgFile}
+                alt="imagefile"
+                className="w-8 sm:max-w-16"
+              />
               <p>{item.name}</p>
             </div>
           ))}

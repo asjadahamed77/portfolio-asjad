@@ -100,52 +100,57 @@ const Experience = () => {
         </ul>
       </div>
       <div id="education" className="my-20 bg-zinc-950 text-white">
-  <div className="text-center">
-    <p className="inline-flex items-center gap-2 font-semibold text-sm sm:text-base tracking-wide px-6 py-2.5 bg-zinc-800 rounded-full hover:shadow-[0px_1px_1px_2px]  hover:shadow-white">
-      <GraduationCap className="w-5 h-5 sm:w-6 sm:h-6" />
-      My Education
-    </p>
-    <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mt-6">
-      Academic Background
-    </h2>
-  </div>
+        <div className="text-center">
+          <p className="inline-flex items-center gap-2 font-semibold text-sm sm:text-base tracking-wide px-6 py-2.5 bg-zinc-800 rounded-full hover:shadow-[0px_1px_1px_2px]  hover:shadow-white">
+            <GraduationCap className="w-5 h-5 sm:w-6 sm:h-6" />
+            My Education
+          </p>
+          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mt-6">
+            Academic Background
+          </h2>
+        </div>
 
-  <div className="mt-16 border-l-4 border-zinc-700 pl-6 relative">
-    <div className="absolute -left-2 top-1 w-4 h-4 bg-zinc-800 border-2 border-zinc-600 rounded-full"></div>
-    <h3 className="text-2xl sm:text-3xl font-semibold text-zinc-100">
-      BSc (Hons) in Software Engineering
-    </h3>
-    <p className="text-zinc-400 mt-1 text-sm sm:text-base">
-      Sabaragamuwa University of Sri Lanka
-    </p>
-    <p className="flex items-center gap-2 text-zinc-400 mt-2 text-sm sm:text-base">
-      <Calendar className="w-4 h-4" />
-      2022 – Present
-    </p>
-    <p className="mt-4 text-zinc-300 text-sm sm:text-base leading-relaxed">
-      Currently pursuing an undergraduate degree focused on software engineering principles, full-stack web development, system architecture, and cloud technologies. Involved in university-level tech projects and leadership activities.
-    </p>
-  </div>
-   {/* A/Ls */}
-   <div className="mt-12 border-l-4 border-zinc-700 pl-6 relative">
-    <div className="absolute -left-2 top-1 w-4 h-4 bg-zinc-800 border-2 border-zinc-600 rounded-full"></div>
-    <h3 className="text-2xl sm:text-3xl font-semibold text-zinc-100">
-      GCE Advanced Level – Physical Science Stream
-    </h3>
-    <p className="text-zinc-400 mt-1 text-sm sm:text-base">
-      Zahira College, Colombo
-    </p>
-    <p className="flex items-center gap-2 text-zinc-400 mt-2 text-sm sm:text-base">
-      <Calendar className="w-4 h-4" />
-      2020 (A/Ls)
-    </p>
-    <p className="mt-4 text-zinc-300 text-sm sm:text-base leading-relaxed">
-      Passed the GCE A/L Examination with results: Chemistry – A, Combined Mathematics – B, Physics – C.  
-      <br />
-      Achieved a Z-Score of <span className="font-semibold text-white">1.4744</span>.
-    </p>
-  </div>
-</div>
+        <div className="mt-16 border-l-4 border-zinc-700 pl-6 relative">
+          <div className="absolute -left-2 top-1 w-4 h-4 bg-zinc-800 border-2 border-zinc-600 rounded-full"></div>
+          <h3 className="text-2xl sm:text-3xl font-semibold text-zinc-100">
+            BSc (Hons) in Software Engineering
+          </h3>
+          <p className="text-zinc-400 mt-1 text-sm sm:text-base">
+            Sabaragamuwa University of Sri Lanka
+          </p>
+          <p className="flex items-center gap-2 text-zinc-400 mt-2 text-sm sm:text-base">
+            <Calendar className="w-4 h-4" />
+            2022 – Present
+          </p>
+          <p className="mt-4 text-zinc-300 text-sm sm:text-base leading-relaxed">
+            Currently pursuing an undergraduate degree focused on software
+            engineering principles, full-stack web development, system
+            architecture, and cloud technologies. Involved in university-level
+            tech projects and leadership activities.
+          </p>
+        </div>
+        {/* A/Ls */}
+        <div className="mt-12 border-l-4 border-zinc-700 pl-6 relative">
+          <div className="absolute -left-2 top-1 w-4 h-4 bg-zinc-800 border-2 border-zinc-600 rounded-full"></div>
+          <h3 className="text-2xl sm:text-3xl font-semibold text-zinc-100">
+            GCE Advanced Level – Physical Science Stream
+          </h3>
+          <p className="text-zinc-400 mt-1 text-sm sm:text-base">
+            Zahira College, Colombo
+          </p>
+          <p className="flex items-center gap-2 text-zinc-400 mt-2 text-sm sm:text-base">
+            <Calendar className="w-4 h-4" />
+            2020 (A/Ls)
+          </p>
+          <p className="mt-4 text-zinc-300 text-sm sm:text-base leading-relaxed">
+            Passed the GCE A/L Examination with results: Chemistry – A, Combined
+            Mathematics – B, Physics – C.
+            <br />
+            Achieved a Z-Score of{" "}
+            <span className="font-semibold text-white">1.4744</span>.
+          </p>
+        </div>
+      </div>
     </section>
   );
 };
