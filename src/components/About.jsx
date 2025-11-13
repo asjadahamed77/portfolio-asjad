@@ -19,18 +19,24 @@ const About = () => {
               Software Engineering at Sabaragamuwa University.
             </p>
             <p className="mb-4 text-white">
-              Over the years, I've immersed myself in full-stack development,
-              working with both the MERN stack and Spring Boot. I enjoy building
-              clean, scalable, and user-focused apps.
+              Over the years, I’ve focused on full-stack development, working
+              extensively with both the MERN stack and Spring Boot to build
+              scalable, secure, and user-centered web applications. I take pride
+              in writing clean, maintainable code and delivering seamless
+              digital experiences.
             </p>
             <p className="mb-4 text-white">
-              I'm skilled in React, Next.js, Tailwind CSS, MongoDB, MySQL, AWS,
-              Git, and more. I love collaborative environments and always seek
-              opportunities to learn and grow.
+              I’m skilled in React, Next.js, Tailwind CSS, MongoDB, MySQL, AWS,
+              and Git, and I continuously explore new technologies to refine my
+              craft. One of my recent projects, Global Edu LMS, reflects my
+              expertise in modern frameworks such as Next.js, Prisma, Neon
+              PostgreSQL, Better Auth, and ShadCN UI, focusing on performance,
+              design consistency, and scalability.
             </p>
             <p className="text-white">
-              Outside coding, I explore UI/UX design, contribute to open source,
-              and watch tech talks.
+              Outside of coding, I explore UI/UX design, contribute to
+              open-source projects, and enjoy watching tech talks to stay
+              inspired and up to date with industry trends.
             </p>
           </article>
         </div>

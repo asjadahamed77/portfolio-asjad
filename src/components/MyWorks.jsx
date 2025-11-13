@@ -1,52 +1,52 @@
 import React from "react";
 import { myWorks } from "../assets/MyWorks";
-import { ExternalLink } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const MyWorks = () => {
   return (
-    <div id="work" className="px-4 sm:px-20 py-32">
-      <div className="grid lg:grid-cols-2 md:flex-row gap-12">
+    <div id="work" className="px-4 sm:px-20 md:px-16 lg:px-28 py-32">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 md:flex-row gap-6  sm:gap-8">
         {myWorks.map((work, index) => (
           <div
             key={index}
-            className="flex flex-col  gap-8 p-4 sm:p-12 bg-zinc-900 rounded-4xl  cursor-pointer border-transparent border duration-500 hover:border hover:border-white hover:shadow-[0px_4px_8px_4px] hover:shadow-white "
+            className="flex flex-col  gap-8 p-4  bg-zinc-900 rounded-lg  cursor-pointer border-transparent border duration-500 hover:border hover:border-white hover:shadow-[0px_4px_8px_4px] hover:shadow-white "
           >
             <div>
               <img
                 src={work.imageFile}
                 alt="WorkImage"
-                className="rounded-3xl"
+                className="rounded-sm"
               />
             </div>
             <div>
-              <h1 className="text-xl sm:text-2xl font-semibold tracking-wide">
+              <h1 className="sm:text-xl  font-medium  line-clamp-2 ">
                 {work.name} - {work.subtitle}
               </h1>
-              <p className="mt-4 text-justify text-white/70 max-h-[250px] overflow-scroll text-ellipsis">
+              <p className="mt-4 text-left text-white/70 line-clamp-4 text-sm font-light ">
                 {work.description}
               </p>
-              <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {work.tools.map((tool, index) => (
-                  <div
-                    key={index}
-                    className="flex items-center gap-3 p-3 bg-zinc-800 rounded-lg shadow-sm border-transparent border duration-500 hover:border hover:border-white hover:shadow-[0px_4px_8px_4px] hover:shadow-white"
-                  >
-                    <img
-                      src={tool.toolIcon}
-                      alt={tool.tool}
-                      className="w-6 h-6 object-contain"
-                    />
-                    <p className="text-white/90 text-sm">{tool.tool}</p>
-                  </div>
-                ))}
-              </div>
 
-              {work.live && (
-                <a href={work.live} target="_blank" className="mt-10 flex items-center gap-3 hover:underline text-xl font-medium tracking-wider">
-                  <ExternalLink />
-                  Try it Live
-                </a>
-              )}
+              <div className="flex justify-between mt-4">
+                {work.live && (
+                  <a
+                    href={work.live}
+                    target="_blank"
+                    className=" flex items-center gap-3 hover:underline text-sm font-medium tracking-wider"
+                  >
+                    <ExternalLink />
+                    Try it Live
+                  </a>
+                )}
+
+                <Link
+                  to={`/work/${work.id}`}
+                  className=" bg-white/5 border border-white/10 rounded w-fit flex items-center px-4 py-2 text-sm gap-2 cursor-pointer group "
+                >
+                  Details{" "}
+                  <ArrowRight className="size-4 group-hover:ml-2 transition-all" />
+                </Link>
+              </div>
             </div>
           </div>
         ))}
