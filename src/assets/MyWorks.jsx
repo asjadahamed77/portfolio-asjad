@@ -44,7 +44,7 @@ import paypal from "../assets/tools/paypal.svg";
 
 export const myWorks = [
   {
-    id: "gyedwjhdihdel",
+    id: "go-ai",
     name: "goAI",
     subtitle: "AI-Powered Content & Image Platform – SaaS with Auth & Profiles",
     features: [
@@ -105,11 +105,20 @@ export const myWorks = [
     live: "https://go-ai-drab.vercel.app/",
   },
   {
-    id: "wgiegbdikdbiud",
+    id: "ajji-store",
     name: "Ajji-Store",
     subtitle: "E-Commerce Web App for Mobile Store – Full Stack",
-    description:
-      "Ajji-Store is a modern, full-featured e-commerce platform built with a focus on security, performance, and user experience. It includes a dedicated client-side shopping interface and a powerful admin dashboard, both designed with an awesome, responsive UI that works flawlessly across all screen sizes. Users enjoy a secure and seamless shopping experience powered by JWT-based authentication, PayPal integration for secure payments, and real-time toast notifications for actions like adding to cart or placing orders. The store also supports smart search and filtering, allowing users to find products quickly and easily. Customers can track their orders, receive email verification, and manage their profile securely. Meanwhile, admins have complete control over the platform — they can manage products, orders, and user accounts, all from an intuitive dashboard. Ajji-Store combines functionality and design into a sleek, production-ready system that brings together the best of modern web technologies to create a high-performance online shopping experience.",
+    features: [
+        { feature: "Secure JWT-based authentication for users and admins." },
+        { feature: "Dedicated admin dashboard for managing products, orders, and users." },
+        { feature: "Responsive UI with smooth navigation across all screen sizes." },
+        { feature: "PayPal payment integration for secure, real-time transactions." },
+        { feature: "Smart search and filtering for quick product discovery." },
+        { feature: "Email verification for secure user onboarding." },
+        { feature: "Order tracking with responsive notifications and user history." },
+        { feature: "Cloudinary integration for optimized product image handling." },
+        { feature: "Fast and reliable deployment with Vercel." }
+      ],
     imageFile: ajjistore,
     tools: [
       {
@@ -149,11 +158,20 @@ export const myWorks = [
     live: "https://ajji-store-client.vercel.app/",
   },
   {
-    id: "edikehwidhbudbee33893",
+    id: "dt-medical-centre",
     name: "DT-Medical Centre",
     subtitle: "Doctor Appointment Booking System – Client Portal",
-    description:
-      "DT Medical Centre is a modern, secure, and fully responsive web application designed to streamline doctor appointments and healthcare service management. Built with a focus on user experience, security, and efficiency, the platform empowers patients and admins to seamlessly interact in a digital medical environment. Users can securely authenticate, manage their personal profiles, book appointments with doctors, and complete online payments through an intuitive interface. The system includes real-time toast notifications for instant feedback on booking, cancellation, or payment status. Features like search and filtering help patients easily find the right doctor or time slot, while the booking management system ensures clarity and control for both patients and administrators. Designed to adapt across all devices, DT Medical Centre is fully responsive and optimized for performance on mobile, tablet, and desktop.",
+    features: [
+        { feature: "Secure user authentication with profile management." },
+        { feature: "Doctor appointment booking with real-time availability." },
+        { feature: "Responsive UI optimized for mobile, tablet, and desktop." },
+        { feature: "Online payment integration for seamless bookings." },
+        { feature: "Real-time toast notifications for booking and updates." },
+        { feature: "Search and filtering to easily find doctors and time slots." },
+        { feature: "Cloudinary image management for smooth media handling." },
+        { feature: "Smooth, modern interface built for medical service workflows." },
+        { feature: "Deployed on Vercel for high performance and uptime." }
+      ],
     imageFile: dtmedicalclient,
     tools: [
       {
@@ -189,12 +207,20 @@ export const myWorks = [
     live: "https://dt-medical-centre-c.vercel.app/",
   },
   {
-    id: "ewduy3i87y3hundu",
+    id: "dt-medical-centre-admin",
     name: "DT Medical Centre – Admin & Doctor Dashboard",
     subtitle:
       "Empowering healthcare professionals with control, insights, and seamless appointment management.",
-    description:
-      "The Admin & Doctor Dashboard of DT Medical Centre is a powerful, secure backend interface built for healthcare professionals and clinic administrators to efficiently manage operations. Featuring secure authentication for both doctors and admins, the system ensures only authorized users can access sensitive patient and clinic data. Admins have complete control — they can add doctors, manage appointments, view payments, and oversee patient activity. Doctors can manage their own profiles, availability, payment status, and more, providing a personalized experience while staying connected to patient appointments. The dashboard is built with a responsive design, ensuring a smooth experience across desktops, tablets, and mobile devices. Real-time toast notifications give immediate feedback on updates like appointment status, profile edits, and payment updates — enhancing the user experience with clarity and speed.",
+      features: [
+        { feature: "Role-based authentication for admins and doctors." },
+        { feature: "Admins can manage doctors, appointments, payments, and patients." },
+        { feature: "Doctors can update availability, profile details, and appointment status." },
+        { feature: "Responsive dashboard layout for all device sizes." },
+        { feature: "Real-time notifications for appointment and profile updates." },
+        { feature: "Secure data access with protected routes." },
+        { feature: "Cloudinary integration for media handling and profile images." },
+        { feature: "Optimized workflow for clinic and patient management." }
+      ],
     imageFile: medicaladmin,
     tools: [
       {
@@ -230,11 +256,19 @@ export const myWorks = [
     live: "https://admin-dt-medical-centre.vercel.app/",
   },
   {
-    id: "ekjehui3ey73uhd33",
+    id: "foodio",
     name: "Foodio",
     subtitle: "Billing System for a Restaurant – Admin & User Panels",
-    description:
-      "Foodio is a full-stack restaurant billing system built for both administrators and end users, offering a complete and intuitive experience. Developed with a modern UI, the platform supports secure authentication and role-based access — allowing admins to add users, manage orders, manage items, and oversee all operational aspects of the restaurant system. Both admins and users have access to a personalized dashboard, order history tracking, and a billing interface. Advanced features include category-based filtering, product search, and seamless bill printing after payment. The system is fully responsive, working beautifully on all devices, and ensures smooth and efficient order management and billing workflows in a real-world restaurant environment.",
+    features: [
+        { feature: "Secure authentication with role-based admin and user access." },
+        { feature: "Admin dashboard to manage users, orders, items, and system operations." },
+        { feature: "Category-based filtering and product search." },
+        { feature: "Billing interface with printable receipts." },
+        { feature: "Order history tracking for both users and admins." },
+        { feature: "Modern, responsive UI for smooth restaurant workflow." },
+        { feature: "Cloudinary integration for optimized image management." },
+        { feature: "Spring Boot backend for secure and scalable operations." }
+      ],
     imageFile: foodio,
     tools: [
       {
@@ -262,11 +296,19 @@ export const myWorks = [
     live: "",
   },
   {
-    id: "eduihbd83hn3di38ioyh38",
+    id: "ajjiyoo",
     name: "Ajjiyoo",
     subtitle: "Fashion E-Commerce Platform with Unified Admin/Client",
-    description:
-      "Ajjiyoo is a fully responsive, modern e-commerce platform tailored for a textile shop, offering a seamless shopping and management experience for both users and administrators. The platform supports secure authentication, allowing both users and admins to log in and perform their respective actions. Customers can browse products using multiple filters and search capabilities, add items to cart, and securely complete purchases via PayPal payment integration. On the admin side, Ajjiyoo includes a dedicated dashboard to manage users, orders, and product listings, ensuring smooth store operations. Designed with usability and performance in mind, Ajjiyoo adapts beautifully to all screen sizes, providing a smooth experience on desktop and mobile devices alike.",
+    features: [
+        { feature: "Secure authentication for both users and admins." },
+        { feature: "Product search, filtering, and category-wise browsing." },
+        { feature: "Add to cart, checkout, and secure PayPal payment integration." },
+        { feature: "Admin dashboard to manage users, orders, and products." },
+        { feature: "Redux-powered state management for smooth user actions." },
+        { feature: "Fully responsive UI across desktop and mobile." },
+        { feature: "Cloudinary image hosting for optimized product media." },
+        { feature: "Vercel deployment for fast, global performance." }
+      ],
     imageFile: ajjioo,
     tools: [
       {
@@ -310,12 +352,20 @@ export const myWorks = [
     live: "https://ajjiyoo-ecom-2nkh.vercel.app/",
   },
   {
-    id: "eduh3i83yhi3u8oihdi3h",
+    id: "lwmc-media",
     name: "LWMC Media – Church Events & Management Platform",
     subtitle:
       "Streamlining church communication, media, and management through one unified platform.",
-    description:
-      "LWMC Media is a fully responsive and visually engaging platform designed to showcase and manage the dynamic life of a church community. From event displays to church leadership visibility and media integration, LWMC Media offers an all-in-one solution for churches to stay connected and organized. The platform displays upcoming events, ongoing programs, and recently held activities, complete with YouTube like-count integration for past events to boost visibility and engagement. Visitors can learn more about the community through a dedicated section that highlights pastors and church leadership team members. A secure admin panel allows authorized personnel to manage users, update event data, and oversee the system in real time — making LWMC Media a reliable and efficient church management system. With an awesome UI, modern architecture, and real-time updates, LWMC Media ensures a smooth experience across all screen sizes.",
+      features: [
+        { feature: "Display upcoming, ongoing, and past church events." },
+        { feature: "YouTube like-count integration for event visibility." },
+        { feature: "Leadership and pastor introduction sections." },
+        { feature: "Secure admin panel for user and event management." },
+        { feature: "Real-time updates for events and community programs." },
+        { feature: "Fully responsive layout optimized for all screen sizes." },
+        { feature: "AWS integration for storage and scalability." },
+        { feature: "Redux integration for smooth state management." }
+      ],
     imageFile: lwmc,
     tools: [
       {
@@ -351,12 +401,20 @@ export const myWorks = [
     live: "https://www.lwmcmedia.fr/",
   },
   {
-    id: "edbduieyhi8uu39i93o",
+    id: "raafest",
     name: "Raafest",
     subtitle:
       "Celebrate with ease – a secure and seamless cake ordering experience.",
-    description:
-      "Raafest Client is a secure, user-focused web platform designed to make cake ordering an easy, personalized, and joyful experience. Built with a modern UI and fully responsive design, users can interact smoothly across devices. The platform includes secure user authentication and profile management, allowing users to save preferences and track past orders. Users can place custom cake orders by selecting a cake, choosing a gift box, adding a personalized card, and even sending heartfelt wishes — all through an intuitive interface. The system ensures secure order placement and uses real-time toast notifications to confirm actions and keep users informed every step of the way. Whether it’s a birthday, anniversary, or celebration, Raafest Client makes thoughtful gifting simple, safe, and delightful.",
+      features: [
+        { feature: "Secure user authentication with profile management." },
+        { feature: "Complete cake ordering flow with customization options." },
+        { feature: "Select cake, choose gift box, and add personalized card messages." },
+        { feature: "Real-time toast notifications for actions and updates." },
+        { feature: "Responsive and modern UI for smooth ordering experience." },
+        { feature: "Order history and user details management." },
+        { feature: "Cloudinary-based image storage for high-quality visuals." },
+        { feature: "Optimized checkout and user workflow." }
+      ],
     imageFile: raafest,
     tools: [
       {
@@ -396,12 +454,19 @@ export const myWorks = [
     live: "https://raafest.vercel.app/",
   },
   {
-    id: "behjbeiuy83o83u8oh3i3",
+    id: "raafest-admin-dashboard",
     name: "Raafest – Admin Dashboard",
     subtitle:
       "Powerful administrative control for managing users, orders, and product listings with ease.",
-    description:
-      "Raafest Admin is a secure and responsive dashboard built for administrators to efficiently manage the operations of the Raafest platform. Designed with a clean, modern UI, the admin panel works seamlessly across all screen sizes, offering full control from desktop or mobile. Admins can securely log in and access key modules to manage users, update customer orders, and oversee all aspects of the product catalog including cakes, gift boxes, and greeting cards. The dashboard provides a clear and organized interface to streamline workflow, reduce manual effort, and ensure accurate, real-time management of order statuses and user details. With a focus on security and usability, Raafest Admin empowers platform managers to maintain smooth and reliable operations across the entire ordering process.",
+      features: [
+        { feature: "Secure admin authentication and protected routes." },
+        { feature: "Full control over users, orders, and product listings." },
+        { feature: "Manage cakes, gift boxes, and greeting cards easily." },
+        { feature: "Responsive dashboard for desktop and mobile workflows." },
+        { feature: "Real-time updates for order status and user management." },
+        { feature: "Cloudinary integration for product media handling." },
+        { feature: "Streamlined interface to reduce admin effort and improve accuracy." }
+      ],
     imageFile: adminraafest,
     tools: [
       {

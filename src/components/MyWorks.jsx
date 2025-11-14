@@ -41,6 +41,7 @@ const MyWorks = () => {
 
                 <Link
                   to={`/work/${work.id}`}
+                  onClick={() => window.scrollTo(0, 0)}
                   className=" bg-white/5 border border-white/10 rounded w-fit flex items-center px-4 py-2 text-sm gap-2 cursor-pointer group "
                 >
                   Details{" "}
