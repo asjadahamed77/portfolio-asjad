@@ -9,11 +9,13 @@ import Values from '../components/Values'
 import Experience from '../components/Experience'
 import MySkills from '../components/MySkills'
 import ContactMe from '../components/ContactMe'
+import Navbar from '../components/Navbar'
 
 
 const Homepage = () => {
   return (
     <div>
+       <Navbar />
        <Header />
       <AnimatedCounter />
       <About />

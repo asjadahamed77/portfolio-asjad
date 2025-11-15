@@ -48,16 +48,40 @@ export const myWorks = [
     name: "goAI",
     subtitle: "AI-Powered Content & Image Platform – SaaS with Auth & Profiles",
     features: [
-        { feature: "AI-powered content generation for articles, blog titles, and images." },
-        { feature: "Advanced image manipulation tools including background and object removal." },
-        { feature: "Secure authentication system supporting both free and premium subscribers." },
-        { feature: "Dynamic feature access based on user subscription level." },
-        { feature: "AI-driven resume review tool providing personalized career feedback." },
-        { feature: "Activity history and creation library to easily revisit past work." },
-        { feature: "Modern, intuitive, and responsive UI for a seamless experience." },
-        { feature: "Securely deployed on Vercel ensuring global performance and reliability." },
-        { feature: "All-in-one AI toolkit built for content creators, designers, job seekers, and tech enthusiasts." }
-      ],
+      {
+        feature:
+          "AI-powered content generation for articles, blog titles, and images.",
+      },
+      {
+        feature:
+          "Advanced image manipulation tools including background and object removal.",
+      },
+      {
+        feature:
+          "Secure authentication system supporting both free and premium subscribers.",
+      },
+      { feature: "Dynamic feature access based on user subscription level." },
+      {
+        feature:
+          "AI-driven resume review tool providing personalized career feedback.",
+      },
+      {
+        feature:
+          "Activity history and creation library to easily revisit past work.",
+      },
+      {
+        feature:
+          "Modern, intuitive, and responsive UI for a seamless experience.",
+      },
+      {
+        feature:
+          "Securely deployed on Vercel ensuring global performance and reliability.",
+      },
+      {
+        feature:
+          "All-in-one AI toolkit built for content creators, designers, job seekers, and tech enthusiasts.",
+      },
+    ],
     imageFile: goAIimage,
     tools: [
       {
@@ -109,16 +133,30 @@ export const myWorks = [
     name: "Ajji-Store",
     subtitle: "E-Commerce Web App for Mobile Store – Full Stack",
     features: [
-        { feature: "Secure JWT-based authentication for users and admins." },
-        { feature: "Dedicated admin dashboard for managing products, orders, and users." },
-        { feature: "Responsive UI with smooth navigation across all screen sizes." },
-        { feature: "PayPal payment integration for secure, real-time transactions." },
-        { feature: "Smart search and filtering for quick product discovery." },
-        { feature: "Email verification for secure user onboarding." },
-        { feature: "Order tracking with responsive notifications and user history." },
-        { feature: "Cloudinary integration for optimized product image handling." },
-        { feature: "Fast and reliable deployment with Vercel." }
-      ],
+      { feature: "Secure JWT-based authentication for users and admins." },
+      {
+        feature:
+          "Dedicated admin dashboard for managing products, orders, and users.",
+      },
+      {
+        feature:
+          "Responsive UI with smooth navigation across all screen sizes.",
+      },
+      {
+        feature:
+          "PayPal payment integration for secure, real-time transactions.",
+      },
+      { feature: "Smart search and filtering for quick product discovery." },
+      { feature: "Email verification for secure user onboarding." },
+      {
+        feature:
+          "Order tracking with responsive notifications and user history.",
+      },
+      {
+        feature: "Cloudinary integration for optimized product image handling.",
+      },
+      { feature: "Fast and reliable deployment with Vercel." },
+    ],
     imageFile: ajjistore,
     tools: [
       {
@@ -162,16 +200,21 @@ export const myWorks = [
     name: "DT-Medical Centre",
     subtitle: "Doctor Appointment Booking System – Client Portal",
     features: [
-        { feature: "Secure user authentication with profile management." },
-        { feature: "Doctor appointment booking with real-time availability." },
-        { feature: "Responsive UI optimized for mobile, tablet, and desktop." },
-        { feature: "Online payment integration for seamless bookings." },
-        { feature: "Real-time toast notifications for booking and updates." },
-        { feature: "Search and filtering to easily find doctors and time slots." },
-        { feature: "Cloudinary image management for smooth media handling." },
-        { feature: "Smooth, modern interface built for medical service workflows." },
-        { feature: "Deployed on Vercel for high performance and uptime." }
-      ],
+      { feature: "Secure user authentication with profile management." },
+      { feature: "Doctor appointment booking with real-time availability." },
+      { feature: "Responsive UI optimized for mobile, tablet, and desktop." },
+      { feature: "Online payment integration for seamless bookings." },
+      { feature: "Real-time toast notifications for booking and updates." },
+      {
+        feature: "Search and filtering to easily find doctors and time slots.",
+      },
+      { feature: "Cloudinary image management for smooth media handling." },
+      {
+        feature:
+          "Smooth, modern interface built for medical service workflows.",
+      },
+      { feature: "Deployed on Vercel for high performance and uptime." },
+    ],
     imageFile: dtmedicalclient,
     tools: [
       {
@@ -211,16 +254,27 @@ export const myWorks = [
     name: "DT Medical Centre – Admin & Doctor Dashboard",
     subtitle:
       "Empowering healthcare professionals with control, insights, and seamless appointment management.",
-      features: [
-        { feature: "Role-based authentication for admins and doctors." },
-        { feature: "Admins can manage doctors, appointments, payments, and patients." },
-        { feature: "Doctors can update availability, profile details, and appointment status." },
-        { feature: "Responsive dashboard layout for all device sizes." },
-        { feature: "Real-time notifications for appointment and profile updates." },
-        { feature: "Secure data access with protected routes." },
-        { feature: "Cloudinary integration for media handling and profile images." },
-        { feature: "Optimized workflow for clinic and patient management." }
-      ],
+    features: [
+      { feature: "Role-based authentication for admins and doctors." },
+      {
+        feature:
+          "Admins can manage doctors, appointments, payments, and patients.",
+      },
+      {
+        feature:
+          "Doctors can update availability, profile details, and appointment status.",
+      },
+      { feature: "Responsive dashboard layout for all device sizes." },
+      {
+        feature: "Real-time notifications for appointment and profile updates.",
+      },
+      { feature: "Secure data access with protected routes." },
+      {
+        feature:
+          "Cloudinary integration for media handling and profile images.",
+      },
+      { feature: "Optimized workflow for clinic and patient management." },
+    ],
     imageFile: medicaladmin,
     tools: [
       {
@@ -260,15 +314,20 @@ export const myWorks = [
     name: "Foodio",
     subtitle: "Billing System for a Restaurant – Admin & User Panels",
     features: [
-        { feature: "Secure authentication with role-based admin and user access." },
-        { feature: "Admin dashboard to manage users, orders, items, and system operations." },
-        { feature: "Category-based filtering and product search." },
-        { feature: "Billing interface with printable receipts." },
-        { feature: "Order history tracking for both users and admins." },
-        { feature: "Modern, responsive UI for smooth restaurant workflow." },
-        { feature: "Cloudinary integration for optimized image management." },
-        { feature: "Spring Boot backend for secure and scalable operations." }
-      ],
+      {
+        feature: "Secure authentication with role-based admin and user access.",
+      },
+      {
+        feature:
+          "Admin dashboard to manage users, orders, items, and system operations.",
+      },
+      { feature: "Category-based filtering and product search." },
+      { feature: "Billing interface with printable receipts." },
+      { feature: "Order history tracking for both users and admins." },
+      { feature: "Modern, responsive UI for smooth restaurant workflow." },
+      { feature: "Cloudinary integration for optimized image management." },
+      { feature: "Spring Boot backend for secure and scalable operations." },
+    ],
     imageFile: foodio,
     tools: [
       {
@@ -300,15 +359,18 @@ export const myWorks = [
     name: "Ajjiyoo",
     subtitle: "Fashion E-Commerce Platform with Unified Admin/Client",
     features: [
-        { feature: "Secure authentication for both users and admins." },
-        { feature: "Product search, filtering, and category-wise browsing." },
-        { feature: "Add to cart, checkout, and secure PayPal payment integration." },
-        { feature: "Admin dashboard to manage users, orders, and products." },
-        { feature: "Redux-powered state management for smooth user actions." },
-        { feature: "Fully responsive UI across desktop and mobile." },
-        { feature: "Cloudinary image hosting for optimized product media." },
-        { feature: "Vercel deployment for fast, global performance." }
-      ],
+      { feature: "Secure authentication for both users and admins." },
+      { feature: "Product search, filtering, and category-wise browsing." },
+      {
+        feature:
+          "Add to cart, checkout, and secure PayPal payment integration.",
+      },
+      { feature: "Admin dashboard to manage users, orders, and products." },
+      { feature: "Redux-powered state management for smooth user actions." },
+      { feature: "Fully responsive UI across desktop and mobile." },
+      { feature: "Cloudinary image hosting for optimized product media." },
+      { feature: "Vercel deployment for fast, global performance." },
+    ],
     imageFile: ajjioo,
     tools: [
       {
@@ -356,16 +418,16 @@ export const myWorks = [
     name: "LWMC Media – Church Events & Management Platform",
     subtitle:
       "Streamlining church communication, media, and management through one unified platform.",
-      features: [
-        { feature: "Display upcoming, ongoing, and past church events." },
-        { feature: "YouTube like-count integration for event visibility." },
-        { feature: "Leadership and pastor introduction sections." },
-        { feature: "Secure admin panel for user and event management." },
-        { feature: "Real-time updates for events and community programs." },
-        { feature: "Fully responsive layout optimized for all screen sizes." },
-        { feature: "AWS integration for storage and scalability." },
-        { feature: "Redux integration for smooth state management." }
-      ],
+    features: [
+      { feature: "Display upcoming, ongoing, and past church events." },
+      { feature: "YouTube like-count integration for event visibility." },
+      { feature: "Leadership and pastor introduction sections." },
+      { feature: "Secure admin panel for user and event management." },
+      { feature: "Real-time updates for events and community programs." },
+      { feature: "Fully responsive layout optimized for all screen sizes." },
+      { feature: "AWS integration for storage and scalability." },
+      { feature: "Redux integration for smooth state management." },
+    ],
     imageFile: lwmc,
     tools: [
       {
@@ -405,16 +467,19 @@ export const myWorks = [
     name: "Raafest",
     subtitle:
       "Celebrate with ease – a secure and seamless cake ordering experience.",
-      features: [
-        { feature: "Secure user authentication with profile management." },
-        { feature: "Complete cake ordering flow with customization options." },
-        { feature: "Select cake, choose gift box, and add personalized card messages." },
-        { feature: "Real-time toast notifications for actions and updates." },
-        { feature: "Responsive and modern UI for smooth ordering experience." },
-        { feature: "Order history and user details management." },
-        { feature: "Cloudinary-based image storage for high-quality visuals." },
-        { feature: "Optimized checkout and user workflow." }
-      ],
+    features: [
+      { feature: "Secure user authentication with profile management." },
+      { feature: "Complete cake ordering flow with customization options." },
+      {
+        feature:
+          "Select cake, choose gift box, and add personalized card messages.",
+      },
+      { feature: "Real-time toast notifications for actions and updates." },
+      { feature: "Responsive and modern UI for smooth ordering experience." },
+      { feature: "Order history and user details management." },
+      { feature: "Cloudinary-based image storage for high-quality visuals." },
+      { feature: "Optimized checkout and user workflow." },
+    ],
     imageFile: raafest,
     tools: [
       {
@@ -458,15 +523,18 @@ export const myWorks = [
     name: "Raafest – Admin Dashboard",
     subtitle:
       "Powerful administrative control for managing users, orders, and product listings with ease.",
-      features: [
-        { feature: "Secure admin authentication and protected routes." },
-        { feature: "Full control over users, orders, and product listings." },
-        { feature: "Manage cakes, gift boxes, and greeting cards easily." },
-        { feature: "Responsive dashboard for desktop and mobile workflows." },
-        { feature: "Real-time updates for order status and user management." },
-        { feature: "Cloudinary integration for product media handling." },
-        { feature: "Streamlined interface to reduce admin effort and improve accuracy." }
-      ],
+    features: [
+      { feature: "Secure admin authentication and protected routes." },
+      { feature: "Full control over users, orders, and product listings." },
+      { feature: "Manage cakes, gift boxes, and greeting cards easily." },
+      { feature: "Responsive dashboard for desktop and mobile workflows." },
+      { feature: "Real-time updates for order status and user management." },
+      { feature: "Cloudinary integration for product media handling." },
+      {
+        feature:
+          "Streamlined interface to reduce admin effort and improve accuracy.",
+      },
+    ],
     imageFile: adminraafest,
     tools: [
       {

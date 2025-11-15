@@ -16,6 +16,58 @@ const Experience = () => {
           Professional Work Experience
         </h2>
       </div>
+      {/* Experience at Arya Labs */}
+<div className="mt-16 border-l-4 border-zinc-700 pl-6 relative">
+  <div className="absolute -left-2 top-1 w-4 h-4 bg-zinc-800 border-2 border-zinc-600 rounded-full"></div>
+  <h3 className="text-2xl sm:text-3xl font-semibold text-zinc-100">
+    Full-Stack Developer Intern <span className="text-zinc-400">– Arya Labs (PVT) LTD</span>
+  </h3>
+  <p className="flex items-center gap-2 text-zinc-400 mt-2 text-sm sm:text-base">
+    <Calendar className="w-4 h-4" />
+    2024 – Present (Internship)
+  </p>
+  <ul className="mt-6 space-y-3 list-disc list-inside text-zinc-300 text-sm sm:text-base leading-relaxed">
+    <li>
+      Contributed to a full-featured{" "}
+      <span className="font-medium text-white">Learning Management System (LMS)</span>
+      including student, lecturer, and admin dashboards.
+    </li>
+    <li>
+      Built secure authentication and role-based access using{" "}
+      <span className="font-medium text-white">Better Auth</span>,{" "}
+      <span className="font-medium text-white">t3-env</span>, and{" "}
+      <span className="font-medium text-white">Next.js</span>.
+    </li>
+    <li>
+      Implemented database workflows with{" "}
+      <span className="font-medium text-white">Prisma</span> and{" "}
+      <span className="font-medium text-white">Neon PostgreSQL</span>.
+    </li>
+    <li>
+      Developed rich content features using{" "}
+      <span className="font-medium text-white">Tiptap</span> (rich text editor),
+      <span className="font-medium text-white"> slugify</span>, and
+      <span className="font-medium text-white"> react-dropzone</span>.
+    </li>
+    <li>
+      Integrated cloud storage via{" "}
+      <span className="font-medium text-white">AWS</span> for media handling,
+      and implemented drag-and-drop experiences with{" "}
+      <span className="font-medium text-white">Dnd Kit</span>.
+    </li>
+    <li>
+      Supported production readiness with{" "}
+      <span className="font-medium text-white">Arcjet</span>,{" "}
+      <span className="font-medium text-white">Resend</span>, and UI libraries like{" "}
+      <span className="font-medium text-white">ShadCN</span>,{" "}
+      <span className="font-medium text-white">Origin UI</span>, and{" "}
+      <span className="font-medium text-white">TweakCN</span>.
+    </li>
+    <li>
+      Contributed to team webinars and internal knowledge-sharing sessions.
+    </li>
+  </ul>
+</div>
 
       {/* Experience at SoftCox */}
       <div className="mt-16 border-l-4 border-zinc-700 pl-6 relative">
